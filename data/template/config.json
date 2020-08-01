@@ -3,7 +3,7 @@
   "meta": {
     "favicon": "https://i.imgur.com/C21YaHR.png",
     "keyword": "hiiamthomas, blog",
-    "description": "個人網誌。內容多為備忘，廢話，以及遇到的坑",
+    "description": "個人網誌。內容多為開發記錄，備忘，以及遇到的坑",
     "theme_color": "#384f7c",
     "google_site_verification": ""
   },
@@ -36,7 +36,6 @@
   ],
   "iconUrl": "https://i.imgur.com/dHAlaPk.jpg",
   "wordings": [
-    "IT狗",
     "時勢造人"
   ],
   "gaTrackId": "UA-157463725-1",
