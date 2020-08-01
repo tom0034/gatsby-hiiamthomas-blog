@@ -1,0 +1,74 @@
+{
+  "url": "https://hiiamthomas.me",
+  "meta": {
+    "favicon": "https://i.imgur.com/C21YaHR.png",
+    "keyword": "hiiamthomas, blog",
+    "description": "個人網誌。內容多為備忘，廢話，以及遇到的坑",
+    "theme_color": "#384f7c",
+    "google_site_verification": ""
+  },
+  "name": "hiiamthomas",
+  "about": "/2020/08/01/aboutme/",
+  "email": "hiiamthomas@gmail.com",
+  "stats": {
+    "image": "https://i.imgur.com/VjBWiSt.png",
+    "title": "過去三十日數據",
+    "description": "過去三十日數據"
+  },
+  "title": "hiiamthomas's blog ",
+  "gitalk": {
+    "repo": "gitalk-issue",
+    "admin": [
+      "tom0034"
+    ],
+    "owner": "tom0034",
+    "clientID": "c46773d680b22ae5be1c",
+    "clientSecret": "b6292ad44de96ecd0239e65c55927876802196fb",
+    "pagerDirection": "first",
+    "distractionFreeMode": true
+  },
+  "License": "by",
+  "friends": [
+    {
+      "href": "https://hiiamthomas.me",
+      "title": "hiiamthomas's blog"
+    }
+  ],
+  "iconUrl": "https://i.imgur.com/dHAlaPk.jpg",
+  "wordings": [
+    "IT狗",
+    "時勢造人"
+  ],
+  "gaTrackId": "UA-157463725-1",
+  "navbarList": [
+    {
+      "href": "/guestbook/",
+      "title": "留言簿"
+    },
+    {
+      "href": "/tags/",
+      "title": "Tags"
+    },
+    {
+      "href": "/2020/08/01/aboutme/",
+      "title": "關於作者"
+    }
+  ],
+  "redirectors": [
+    {
+      "toPath": "/2020/08/01/aboutme/",
+      "fromPath": "/about/"
+    }
+  ],
+  "gaOptimizeId": "",
+  "carouselItems": [
+    {
+      "src": "https://i.imgur.com/gw91CuI.jpg",
+      "target": "/stats/"
+    }
+  ],
+  "zhihuUsername": "",
+  "githubUsername": "tom0034",
+  "maxPostsInPage": 10,
+  "facebook": ""
+}
