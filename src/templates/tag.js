@@ -6,7 +6,9 @@ import Sidebar from '../components/Sidebar';
 
 // eslint-disable-next-line react/prop-types
 const TagPage = ({ data, pageContext }) => {
+  // eslint-disable-next-line react/prop-types
   const { edges } = data.allMarkdownRemark;
+  // eslint-disable-next-line react/prop-types
   const { tag } = pageContext;
   return (
     <div className="container">
@@ -26,13 +28,18 @@ const TagPage = ({ data, pageContext }) => {
               margin: 15,
             }}
           >
-            {edges.length}
+            {// eslint-disable-next-line react/prop-types
+              edges.length
+            }
             &nbsp;Articles in&nbsp;
             {tag}
           </div>
-          {edges.map(({ node }) => (
-            <Card {...node.frontmatter} key={node.id} />
-          ))}
+          {// eslint-disable-next-line react/prop-types
+            edges.map(({ node }) => (
+              // eslint-disable-next-line react/jsx-props-no-spreading
+              <Card {...node.frontmatter} key={node.id} />
+            ))
+          }
         </div>
 
         <div className="col-xl-2 col-lg-1 order-3" />
@@ -41,7 +48,7 @@ const TagPage = ({ data, pageContext }) => {
       <SEO
         title={tag}
         url={`/tag/${tag}`}
-        siteTitleAlt="Calpa's Blog"
+        siteTitleAlt="hiiamthomas's blog"
         isPost={false}
         description={tag}
         image="https://i.imgur.com/M795H8A.jpg"
