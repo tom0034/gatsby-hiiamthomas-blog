@@ -7,10 +7,12 @@ import SEO from '../components/SEO';
 
 // eslint-disable-next-line react/prop-types
 const TagPage = ({ data }) => {
+  // eslint-disable-next-line react/prop-types
   const { allMarkdownRemark } = data;
 
   const mapping = {};
 
+  // eslint-disable-next-line react/prop-types
   allMarkdownRemark.edges.forEach(({ node }) => {
     const { tags } = node.frontmatter;
     tags.forEach((name) => {
@@ -37,7 +39,7 @@ const TagPage = ({ data }) => {
         <Sidebar />
 
         <div className="col order-2">
-          {tags.map(item => (
+          {tags.map((item) => (
             <Tag name={item} key={item} count={mapping[item]} />
           ))}
         </div>
@@ -45,7 +47,7 @@ const TagPage = ({ data }) => {
       <SEO
         title="標籤"
         url="/tags/"
-        siteTitleAlt="Calpa's Blog"
+        siteTitleAlt="hiiamthomas's blog"
         isPost={false}
         description="Tags Page"
         image="https://i.imgur.com/M795H8A.jpg"
