@@ -5,7 +5,8 @@ title: "[OpenWrt] 安裝Adblock"
 date: 2020-08-02T04:55:32.041Z
 description: OpenWrt 安裝和設置 Adblock
 tags:
-  - OpenWrt Adblock
+  - OpenWrt
+  - Adblock
 headerImage: https://i.imgur.com/K7XPk7j.jpg
 templateKey: blog-post
 ---
