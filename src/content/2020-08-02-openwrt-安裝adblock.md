@@ -7,7 +7,6 @@ description: OpenWrt 安裝和設置 Adblock
 tags:
   - OpenWrt
   - Adblock
-  - Hello World
 headerImage: ""
 templateKey: blog-post
 ---
