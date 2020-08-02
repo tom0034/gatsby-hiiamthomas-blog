@@ -48,7 +48,7 @@ templateKey: blog-post
 
 2. 參考並根據你個人喜好修改
 
-   ```console
+   ```
    #/etc/config/adblock
    
    config adblock 'global'
@@ -233,7 +233,7 @@ templateKey: blog-post
 
    以下為我的設定
 
-   ```console
+   ```
    #/etc/adblock/adblock.whitelist
    
    android.clients.google.com
@@ -268,7 +268,7 @@ templateKey: blog-post
 
   ouput
 
-  ```console
+  ```
   root@OpenWrt:/etc/adblock# /etc/init.d/adblock status
   ::: adblock runtime information
     + adblock_status  : enabled
@@ -302,7 +302,7 @@ templateKey: blog-post
 
   output
 
-  ```console
+  ```
   root@OpenWrt:/etc/adblock# /etc/init.d/adblock query google.com
   :::
   ::: results for domain 'google.com' in active blocklist
