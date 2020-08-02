@@ -8,7 +8,7 @@ tags:
   - OpenWrt
   - Adblock
   - Hello World
-headerImage: https://i.imgur.com/K7XPk7j.jpg
+headerImage: " "
 templateKey: blog-post
 ---
 ## 安裝
