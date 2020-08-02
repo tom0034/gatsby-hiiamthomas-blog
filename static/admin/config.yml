@@ -9,6 +9,8 @@ media_folder: static/assets
 collections:
   - name: "Configuration"
     label: "Configuration"
+    editor:
+      preview: false
     files:
       - label: "Site Configuration"
         name: "site"
@@ -82,6 +84,8 @@ collections:
   - name: "blog"
     label: "Blog"
     folder: "src/content"
+    editor:
+      preview: false
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
