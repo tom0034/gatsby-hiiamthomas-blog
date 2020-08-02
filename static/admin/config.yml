@@ -107,11 +107,19 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Header Image", 
-          name: "headerImage", 
+      - { 
+          label: "Tags",
+          name: "tags",
+          widget: "list",
+          hint: 'tags sperate by space, if your tag contains spaces, please change it to dashes, eg: "hello world" -> "hello-world"',
+          }
+      - { 
+          label: "Header Image",
+          name: "headerImage",
+          hint: "沒有特別banner則使用預設 https://i.imgur.com/K7XPk7j.jpg",
           widget: "string",
-          default: "https://i.imgur.com/K7XPk7j.jpg"}
+          default: "https://i.imgur.com/K7XPk7j.jpg",
+          }
       - {
           label: "Template Key",
           hint: "如果你不知道是什麼模板的話，請輸入 blog-post",
