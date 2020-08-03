@@ -2,7 +2,7 @@
 id: "1176871859"
 title: Free and Open Source Alternatives (continous update..)
 date: 2020-08-03T15:39:37.106Z
-description: list of FOSS
+description: A collection of free and open source software/services
 tags:
   - FOSS
   - Free
