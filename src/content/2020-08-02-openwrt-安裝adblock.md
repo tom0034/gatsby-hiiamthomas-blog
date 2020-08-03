@@ -39,7 +39,7 @@ templateKey: blog-post
    ```
 
 
-
+&nbsp;
 ## 設置
 
 這裡使用command line進行設置。有安裝web interface的，可到luci, service -> adblock進行設置。
@@ -257,7 +257,7 @@ templateKey: blog-post
    ```
 
    
-
+&nbsp;
 ## 檢查Adblock
 
 * 檢查adblock狀態
