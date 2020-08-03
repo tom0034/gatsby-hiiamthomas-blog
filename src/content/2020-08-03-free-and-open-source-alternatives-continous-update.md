@@ -10,9 +10,9 @@ tags:
 templateKey: blog-post
 ---
 # Last Update: 2020-08-03
-  
+&nbsp;
 ## Communication
-  
+&nbsp;
 ### Instant Messaging
 * [Signal](https://signal.org/)
 * [Wire](https://wire.com/)
