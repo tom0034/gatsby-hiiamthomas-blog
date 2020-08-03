@@ -17,7 +17,7 @@
   },
   "title": "hiiamthomas's blog ",
   "gitalk": {
-    "repo": "gitalk-issue.github.io",
+    "repo": "gitalk-issue",
     "admin": ["tom0034"],
     "owner": "tom0034",
     "clientID": "c46773d680b22ae5be1c",

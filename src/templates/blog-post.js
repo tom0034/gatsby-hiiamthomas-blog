@@ -2,34 +2,34 @@
 /* eslint react/prop-types: 0 */
 
 // Components
-import React, { Component } from 'react';
-import { graphql } from 'gatsby';
+import React, { Component } from "react";
+import { graphql } from "gatsby";
 
-import 'gitalk/dist/gitalk.css';
+import "gitalk/dist/gitalk.css";
 
-import { parseChineseDate } from '../api';
+import { parseChineseDate } from "../api";
 
-import ExternalLink from '../components/ExternalLink';
-import Sidebar from '../components/Sidebar';
-import Content from '../components/Content';
-import SEO from '../components/SEO';
+import ExternalLink from "../components/ExternalLink";
+import Sidebar from "../components/Sidebar";
+import Content from "../components/Content";
+import SEO from "../components/SEO";
 
-import Header from '../components/Header';
+import Header from "../components/Header";
 // import TableOfContent from '../components/TableOfContent';
-import ShareBox from '../components/ShareBox';
+import ShareBox from "../components/ShareBox";
 
-import { config } from '../../data';
+import { config } from "../../data";
 
 // Styles
-import './blog-post.scss';
+import "./blog-post.scss";
 
 const { name, iconUrl, gitalk } = config;
 
-const bgWhite = { padding: '10px 30px', background: 'white' };
+const bgWhite = { padding: "10px 30px", background: "white" };
 
 // Prevent webpack window problem
-const isBrowser = typeof window !== 'undefined';
-const Gitalk = isBrowser ? require('gitalk') : undefined;
+const isBrowser = typeof window !== "undefined";
+const Gitalk = isBrowser ? require("gitalk") : undefined;
 
 class BlogPost extends Component {
   constructor(props) {
@@ -43,18 +43,16 @@ class BlogPost extends Component {
 
     const GitTalkInstance = new Gitalk({
       ...gitalk,
-      title,
+      title: title,
       id: id || graphqlId,
     });
-    GitTalkInstance.render('gitalk-container');
+    GitTalkInstance.render("gitalk-container");
   }
 
   render() {
     const { node } = this.data.content.edges[0];
 
-    const {
-      html, frontmatter, fields, excerpt,
-    } = node;
+    const { html, frontmatter, fields, excerpt } = node;
 
     const { slug } = fields;
 
@@ -63,7 +61,7 @@ class BlogPost extends Component {
     return (
       <div className="row post order-2">
         <Header
-          img={headerImage || 'https://i.imgur.com/M795H8A.jpg'}
+          img={headerImage || "https://i.imgur.com/M795H8A.jpg"}
           title={title}
           authorName={name}
           authorImage={iconUrl}
@@ -97,7 +95,7 @@ class BlogPost extends Component {
           siteTitleAlt="hiiamthomas's blog"
           isPost={false}
           description={excerpt}
-          image={headerImage || 'https://i.imgur.com/M795H8A.jpg'}
+          image={headerImage || "https://i.imgur.com/M795H8A.jpg"}
         />
       </div>
     );
