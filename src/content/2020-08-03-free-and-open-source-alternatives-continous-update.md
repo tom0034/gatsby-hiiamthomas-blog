@@ -9,9 +9,9 @@ tags:
   - Open Source
 templateKey: blog-post
 ---
-# Last Update: 2020-08-03\
+# Last Update: 2020-08-03  
 
-## Communication\
+## Communication  
 
 ### Instant Messaging
 * [Signal](https://signal.org/)
