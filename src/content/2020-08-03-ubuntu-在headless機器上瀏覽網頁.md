@@ -1,6 +1,6 @@
 ---
 id: "6901598506"
-title: "[Ubuntu] 在headless機器上瀏覽網頁"
+title: 在Headless Server上瀏覽網頁
 date: 2020-08-03T05:01:55.442Z
 description: browse website on a headless server
 tags:
@@ -28,15 +28,11 @@ sudo apt-get update
 sudo apt-get install squid -y
 ```
 
-
-
 ## 設置
 
 在Firefox裡設置好proxy
 
 ![setting](https://i.imgur.com/Aaod9ad.png)
-
-
 
 ## 使用
 
@@ -50,24 +46,19 @@ ssh -CNT2gL 8080:localhost:3128 username@headless-server -p 22
 
 現在firefox已經連上ubuntu server, 能夠使用其網絡去瀏覽網頁
 
-
-
 ## 測試
 
 1. headless server 連上vpn
 2. 設置好並開啟squid
 3. 檢查ip是否為vpn ip, 或是否能連上公司/學校的內聯網
 
-
-
 ## 其他
 
 * squid settings: `/etc/squid/squid.conf`
+
   * `http_access`
   * `http_port`
 * squid status: `sudo systemctl status squid.service`
-
-
 
 Reference
 
