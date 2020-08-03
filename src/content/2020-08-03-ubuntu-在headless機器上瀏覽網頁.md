@@ -14,8 +14,6 @@ templateKey: blog-post
 * Headless server: Raspberry Pi, Ubuntu 20.04
 * Client: Windows 10, Firefox
 
-
-
 ## 安裝
 
 安裝squid，用作proxy server
@@ -38,7 +36,7 @@ sudo apt-get install squid -y
 
 安裝完squid並設置好firefox proxy後，便可使用ssh tunnel將網頁流量由ubuntu送到windows。
 
-開肩ssh client並使用`-CNT2gL`選項
+開啟ssh client並使用`-CNT2gL`選項
 
 ```bash
 ssh -CNT2gL 8080:localhost:3128 username@headless-server -p 22
