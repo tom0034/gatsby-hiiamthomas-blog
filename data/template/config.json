@@ -17,14 +17,11 @@
   },
   "title": "hiiamthomas's blog ",
   "gitalk": {
-    "repo": "gitalk-issue",
-    "admin": [
-      "tom0034"
-    ],
+    "repo": "gitalk-issue.github.io",
+    "admin": ["tom0034"],
     "owner": "tom0034",
     "clientID": "c46773d680b22ae5be1c",
     "clientSecret": "b6292ad44de96ecd0239e65c55927876802196fb",
-    "pagerDirection": "first",
     "distractionFreeMode": true
   },
   "License": "by",
@@ -35,9 +32,7 @@
     }
   ],
   "iconUrl": "https://i.imgur.com/dHAlaPk.jpg",
-  "wordings": [
-    "時勢造人"
-  ],
+  "wordings": ["時勢造人"],
   "gaTrackId": "UA-157463725-1",
   "navbarList": [
     {
