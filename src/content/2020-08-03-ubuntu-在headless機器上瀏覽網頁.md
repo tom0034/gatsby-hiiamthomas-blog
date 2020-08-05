@@ -25,6 +25,9 @@ sudo apt-get update
 
 # install squid
 sudo apt-get install squid -y
+
+# open port 3128 if useing UFW
+sudo ufw allow 3128
 ```
 
 &nbsp;
