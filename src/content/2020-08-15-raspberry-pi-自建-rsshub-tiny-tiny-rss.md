@@ -197,7 +197,7 @@ templateKey: blog-post
    docker run -d -p 3000:3000 --restart=always opencc_dev
    ```
 
-4. 輸入`docker ps` 看看有沒有成功，`NAMES`應用會顯示為`opencc_dev`
+4. 輸入`docker ps` 看看有沒有成功，`NAMES`應該會顯示為`opencc_dev`
 
 
 &nbsp;
