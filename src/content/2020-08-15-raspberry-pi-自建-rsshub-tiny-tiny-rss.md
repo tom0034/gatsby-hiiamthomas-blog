@@ -164,7 +164,7 @@ templateKey: blog-post
 
 * 輸入`docker ps` 查看，如下
 
-  ![docker ps](6TPmYFO.png)
+  ![docker ps](https://i.imgur.com/6TPmYFO.png)
 
 * ttrss: `http://your-ttrss-ip:181`, eg: `http://192.168.1.100:181`
 
