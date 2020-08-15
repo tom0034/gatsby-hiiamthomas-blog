@@ -174,7 +174,7 @@ templateKey: blog-post
 &nbsp;
 ## Bonus
 
-原本[Awesome-TTRSS](https://github.com/HenryQW/Awesome-TTRSS)內置了 opencc (繁簡轉換)，無奈raspberry pi的架構令其不能使用，檢查 `docker ps`會顯示opencc一直重啟，所有才需要在ttrss 的docer-compose.yml裡將其關閉。但因為其[opencc api server](https://github.com/HenryQW/OpenCC.henry.wang)是基於[BYVoid/OpenCC](https://github.com/BYVoid/OpenCC)，而後者是能夠在arm上編譯的，故我抱著一試的心態從github下載source code直接編譯。
+原本[Awesome-TTRSS](https://github.com/HenryQW/Awesome-TTRSS)內置了 opencc (繁簡轉換)，無奈raspberry pi的架構令其不能使用，檢查 `docker ps`會顯示opencc一直重啟，所有才需要在ttrss 的docer-compose.yml裡將其關閉。但我發現其[opencc api server](https://github.com/HenryQW/OpenCC.henry.wang)是基於[BYVoid/OpenCC](https://github.com/BYVoid/OpenCC)，而後者是能夠在arm上編譯的，故我抱著一試的心態從github下載source code直接編譯。
 
 1. 下載source code
 
