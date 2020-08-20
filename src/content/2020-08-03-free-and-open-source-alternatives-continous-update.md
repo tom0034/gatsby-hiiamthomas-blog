@@ -35,3 +35,7 @@ templateKey: blog-post
 ### Pastebin
 * [CopyPaste.me](https://copypaste.me)
 
+&nbsp;
+### Translate
+* [DeepL Translate](https://www.deepl.com/en/translator)
+
