@@ -29,9 +29,10 @@ root@OpenWrt:~#
 ```
 
 
-
+&nbsp;
 # 前置作業
 
+&nbsp;
 ## 安裝usb驅動
 
 1. ssh 進去你的路由器
@@ -68,6 +69,7 @@ root@OpenWrt:~#
 
    看見`Driver=usb-storage`就代表已檢測到你的usb裝置
 
+&nbsp;
 ## 檢查OpenWrt能否辨別你的usb裝置
 
 1. 確認你已插上usb裝置
@@ -115,9 +117,10 @@ root@OpenWrt:~#
    如你的usb裝置已格式化分區，那則會顯示出來，如上面的`/dev/sda5`, `/dev/sda6`, `/dev/sda7`
 
 
-
+&nbsp;
 # 實作設置
 
+&nbsp;
 ## 建立分區
 
 因我的usb裝置建立好分區已經是一年前的事了，忘了怎樣做，故現貼上官方教學，有機會再攝寫實戰教學
@@ -162,6 +165,7 @@ if the previous chapter did not list any existing partitions (like “/dev/sda1�
 
 Refer to the gdisk help text (write “?”) in case you need additional help. Stick to a single partition, to stay aligned to the following HowTo.
 
+&nbsp;
 ## 格式化分區
 
 * usb hard disk -> ext4
@@ -183,7 +187,7 @@ Refer to the gdisk help text (write “?”) in case you need additional help. S
   ```
 
 
-
+&nbsp;
 ## 自動掛載
 
 * data: 顧名思義，放data專用，如bt下載回來的檔案。容量最大
@@ -297,6 +301,7 @@ data 和 swap分區校易設置
 
 ps: 這裡其可不重新啟動路由器，手動掛載`mount /dev/sd* /overlay`，但為確保設置正常運作，`reboot`一次確認自動掛載機能正常運作。
 
+&nbsp;
 ## (Optional) 在沒有任何讀寫行為時將usb硬盤設為閒置模式
 
 1. **hdparm**: 使用commandl line 管理
