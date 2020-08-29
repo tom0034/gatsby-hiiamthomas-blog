@@ -136,6 +136,14 @@ templateKey: blog-post
 
 5. 儲存
 
+&nbsp;
+##
+check_port
+
+1. go to `/var/services/web/rutorrent/plugins/check_port`
+2. edit `action.php`
+3. change `@$client->fetch("http://www.canyouseeme.org","POST","application/x-www-form-urlencoded","port=".$port."&submit=Check+Your+Port");` to `@$client->fetch("https://www.canyouseeme.org","POST","application/x-www-form-urlencoded","port=".$port."&submit=Check+Your+Port");`
+
 
 &nbsp;
 ## reference
